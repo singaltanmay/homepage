@@ -1,0 +1,138 @@
+<html>
+<head>
+<title>アンキットのコーナー</title>
+</head>
+<style type="text/css" media="screen">
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+  grid-gap: 0.75rem; /* To define the gap between rows/columns */
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background-color: #222629; /* For contrast */
+  color: #fff;
+}
+.card {
+  /* This will come in handy later to center the contents */
+  position: relative;
+}
+
+.card:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.card .content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.center {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 0.75rem;
+  background-color: #474b4f;
+}
+
+img { max-width: 100%; height: auto; }
+
+</style>
+<body>
+  <h1>アンキットのコーナー</h1>
+<div class="container">
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        <img src="./plex-logo-reverse.png">
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        Example Content 2
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        Example Content 3
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        Example Content 4
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        Example Content 5
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        Example Content 6
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        Example Content 7
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        Example Content 8
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        Example Content 9
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        Example Content 10
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        Example Content 11
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        Example Content 12
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
